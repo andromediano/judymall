@@ -8,4 +8,7 @@
  */
 
 rootProject.name = "judymall"
-include("app", "list", "utilities")
+
+include("app")
+include("list")
+include("utilities")
