@@ -3,9 +3,9 @@
  */
 
 plugins {
-    id("io.opentest.java-library-conventions")
+  id("library-conventions")
 }
 
 dependencies {
-    api(project(":list"))
+  api(project(":list"))
 }

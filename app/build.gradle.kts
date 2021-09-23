@@ -3,15 +3,15 @@
  */
 
 plugins {
-    id("io.opentest.java-application-conventions")
+  id("application-conventions")
 }
 
 dependencies {
-    implementation("org.apache.commons:commons-text")
-    implementation(project(":utilities"))
+  implementation("org.apache.commons:commons-text")
+  implementation(project(":utilities"))
 }
 
 application {
-    // Define the main class for the application.
-    mainClass.set("io.opentest.app.App")
+  // Define the main class for the application.
+  mainClass.set("io.opentest.app.App")
 }

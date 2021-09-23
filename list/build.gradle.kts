@@ -3,5 +3,5 @@
  */
 
 plugins {
-    id("io.opentest.java-library-conventions")
+  id("library-conventions")
 }
