@@ -20,6 +20,6 @@ pluginManagement {
 
 rootProject.name = "judymall"
 
-include("app")
+include("judymall-front")
 include("list")
 include("utilities")
