@@ -20,6 +20,13 @@ pluginManagement {
 
 rootProject.name = "judymall"
 
+// Root project 'judymall'
+// +--- ':judymall-front'
+// |    +--- ':judymall-domain'
+// |         `--- ':judymall-core'
+// +--- ':judymall-domain'
+// |    `--- ':judymall-core'
+// `--- Project ':judymall-core'
+include("judymall-core")
+include("judymall-domain")
 include("judymall-front")
-include("list")
-include("utilities")
