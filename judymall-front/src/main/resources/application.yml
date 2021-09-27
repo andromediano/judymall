@@ -1,0 +1,14 @@
+#
+# FrontApp
+#
+server:
+  port: 8080
+  # https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.developing-web-applications.spring-mvc.error-handling
+  error:
+    whitelabel:
+      enabled: false
+
+spring:
+  config:
+    import:
+      - optional:classpath:/application-domain.yml
