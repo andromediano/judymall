@@ -11,4 +11,16 @@ server:
 spring:
   config:
     import:
+      - optional:classpath:/application-core.yml
       - optional:classpath:/application-domain.yml
+
+myapp:
+  app-code: front
+  ajp-port: 8009
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: development

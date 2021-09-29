@@ -1,0 +1,26 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  web:
+    locale: ko_KR
+
+myapp:
+  home-dir: /home/opentest
+  log-dir: ${myapp.home-dir}/storage/logs
+  log-file: ${myapp.log-dir}/app-${myapp.app-code}.log
+  url: https://opentest.io
+  attachment-dir: ${myapp.home-dir}/storage/attachment
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: development
+
+myapp:
+  log-dir: ${HOME}/development/storage/logs
+  url: http://localhost:${server.port}
+  attachment-dir: ${HOME}/development/storage/attachment

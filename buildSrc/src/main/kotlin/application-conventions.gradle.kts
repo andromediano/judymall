@@ -9,3 +9,11 @@ plugins {
   // Apply the application plugin to add support for building a CLI application in Java.
   application
 }
+
+dependencies {
+  // @ConfigurationProperties 어노테이션의 메타데이터를 자동으로 생성하기 위해 추가하였다.
+  // `*-core`에는 메타데이터를 관리하고 있으므로 따로 설정 할 필요는 없다.
+  annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
+  // Logstash Logback Encoder
+  //implementation("net.logstash.logback:logstash-logback-encoder:6.6")
+}

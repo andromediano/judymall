@@ -1,0 +1,56 @@
+{
+  "groups": [
+    {
+      "name": "myapp",
+      "type": "io.opentest.core.Settings",
+      "sourceType": "io.opentest.core.Settings"
+    }
+  ],
+  "properties": [
+    {
+      "name": "myapp.app-code",
+      "type": "java.lang.String",
+      "sourceType": "io.opentest.core.Settings"
+    },
+    {
+      "name": "myapp.ajp-host",
+      "type": "java.lang.String",
+      "description": "AJP Listener Host.",
+      "sourceType": "io.opentest.core.Settings",
+      "defaultValue": "localhost"
+    },
+    {
+      "name": "myapp.ajp-port",
+      "type": "java.lang.Integer",
+      "description": "AJP Listener Port.",
+      "sourceType": "io.opentest.core.Settings",
+      "defaultValue": 8009
+    },
+    {
+      "name": "myapp.home-dir",
+      "type": "java.lang.String",
+      "sourceType": "io.opentest.core.Settings"
+    },
+    {
+      "name": "myapp.log-dir",
+      "type": "java.lang.String",
+      "sourceType": "io.opentest.core.Settings"
+    },
+    {
+      "name": "myapp.log-file",
+      "type": "java.lang.String",
+      "sourceType": "io.opentest.core.Settings"
+    },
+    {
+      "name": "myapp.url",
+      "type": "java.lang.String",
+      "sourceType": "io.opentest.core.Settings"
+    },
+    {
+      "name": "myapp.attachment-dir",
+      "type": "java.lang.String",
+      "sourceType": "io.opentest.core.Settings"
+    }
+  ],
+  "hints": []
+}
